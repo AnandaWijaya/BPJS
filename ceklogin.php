@@ -25,7 +25,7 @@ if($cek > 0){
  }else if($data['level']=="enggineering"){
   $_SESSION['username'] = $username;
   $_SESSION['level'] = "enggineering";
-  header("location:index_pimpinan.php");
+  header("location:user/index.php.php");
 
  }else{
 
